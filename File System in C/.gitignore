@@ -9,7 +9,6 @@ fso-sh
 
 # Disk image files (test files)
 image*
-*.img
 *.disk
 
 # Temporary files
