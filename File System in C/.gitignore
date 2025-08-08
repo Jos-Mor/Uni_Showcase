@@ -8,8 +8,9 @@ fso-sh
 *.out
 
 # Disk image files (test files)
-image*
+*.img
 *.disk
+*(copy)
 
 # Temporary files
 *~
