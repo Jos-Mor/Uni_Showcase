@@ -1,0 +1,44 @@
+[
+  {
+    "input_file": "../test_files/input100D.inp",
+    "num_clusters": 10,
+    "max_iterations": 200,
+    "change_threshold": 0.03,
+    "movement_threshold": 0.01
+  },
+  {
+    "input_file": "../test_files/input100D.inp",
+    "num_clusters": 50,
+    "max_iterations": 1000,
+    "change_threshold": 0.02,
+    "movement_threshold": 0.005
+  },
+  {
+    "input_file": "../test_files/input100D.inp",
+    "num_clusters": 100,
+    "max_iterations": 2500,
+    "change_threshold": 0.01,
+    "movement_threshold": 0.002
+  },
+  {
+    "input_file": "../test_files/input100D.inp",
+    "num_clusters": 250,
+    "max_iterations": 5000,
+    "change_threshold": 0.005,
+    "movement_threshold": 0.001
+  },
+  {
+    "input_file": "../test_files/input100D.inp",
+    "num_clusters": 500,
+    "max_iterations": 10000,
+    "change_threshold": 0.002,
+    "movement_threshold": 0.0005
+  },
+  {
+    "input_file": "../test_files/input100D.inp",
+    "num_clusters": 1000,
+    "max_iterations": 20000,
+    "change_threshold": 0.001,
+    "movement_threshold": 0.0001
+  }
+]

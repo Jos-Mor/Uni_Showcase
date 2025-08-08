@@ -1,0 +1,30 @@
+Para os wireframes, criar 2 objetos e shaders diferentes (um a cheio (triangles), o outro wires (lines))
+usar o ex27 como esqueleto
+
+active(?) -> vec4(x,y,z,1) (emite luz para todos os lados)
+
+directional(?) -> ve4(x,y,z,0) (emite luz numa direção)
+
+
+especular - refletos -> cor do pixel (I) = somatório das 3 luzes (Iai*ka + Idi*kd(N·L) + Isi*ks(R)) 
+
+Id - componente difusa
+kd - 
+Is- componente especular
+
+menor o ângulo entre a normal do vecPosition e o vetor luz-position, maior a intensidade da luz ( ||N|| ||L|| cos(theta) ) -> GLSL dot, reflect and normalize functions
+
+angulo reflexo = angulo acima ^
+
+angulo V (visualizador) -> quanto menor o angulo entre o visualizador e o angulo reflexo, maior a intensidade (R·V)^n
+
+
+difusa - o que está a bater diretamente
+
+procurar como se faz um color picker
+
+DEBUG: se começar a controlar 2 peças porque a tentar trocar o controlo continuamos a apontar para a mesma, try this:
+let newArray = [...oldArray]
+Object.Assign(oldObject, newObject)
+
+o chão é baço

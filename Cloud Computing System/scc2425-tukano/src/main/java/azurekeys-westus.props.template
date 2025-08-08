@@ -1,0 +1,10 @@
+# Azure Configuration Template for West US Region
+# Copy this file to azurekeys-westus.props and fill in your actual values
+# DO NOT commit the actual .props file with real keys to version control
+
+DB_TYPE=SQL
+REDIS_AVAILABLE=NO
+BlobStoreConnection=DefaultEndpointsProtocol=https;AccountName=YOUR_STORAGE_ACCOUNT_NAME;AccountKey=YOUR_STORAGE_ACCOUNT_KEY;EndpointSuffix=core.windows.net
+COSMOSDB_KEY=YOUR_COSMOSDB_PRIMARY_KEY
+COSMOSDB_URL=https://YOUR_COSMOSDB_ACCOUNT.documents.azure.com:443/
+COSMOSDB_DATABASE=YOUR_DATABASE_NAME

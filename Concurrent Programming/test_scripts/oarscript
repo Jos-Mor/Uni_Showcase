@@ -1,0 +1,17 @@
+#!/bin/bash
+WORKDIR=$(pwd)
+echo "Job started at: $(date)"
+#debug
+echo "Starting job in directory: $WORKDIR"
+
+cd "$WORKDIR"
+cd "../src/"
+echo "Compiling at: $(date)"
+make clean
+make all
+chmod +x ./kmeans_seq ./kmeans_omp
+
+cd "$WORKDIR"
+echo "Running Python script at: $(date)"
+time python3 ./test_script.py
+echo "Job finished at: $(date)"

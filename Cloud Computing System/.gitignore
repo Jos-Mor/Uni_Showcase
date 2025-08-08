@@ -1,0 +1,62 @@
+# Azure Configuration Files - NEVER COMMIT THESE
+*.props
+!*.props.template
+azurekeys-*.props
+**/azurekeys-*.props
+
+# API Keys and Secrets
+*.key
+*.secret
+*.env
+.env
+.env.local
+.env.production
+
+# Database Configuration
+hibernate.cfg.xml
+**/hibernate.cfg.xml
+!*.template
+
+# IDE Files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Build Artifacts
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# OS Files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Maven
+.m2/
+dependency-reduced-pom.xml
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Azure Functions
+local.settings.json
+**/local.settings.json

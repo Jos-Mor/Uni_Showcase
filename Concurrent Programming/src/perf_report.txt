@@ -1,0 +1,291 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 52  of event 'cycles:P'
+# Event count (approx.): 3051291543
+#
+# Children      Self  Command     Shared Object      Symbol                             
+# ........  ........  ..........  .................  ...................................
+#
+    80.85%    80.84%  kmeans_seq  kmeans_seq         [.] main
+            |
+            ---main
+
+    18.65%    18.65%  kmeans_seq  libc.so.6          [.] __strcspn_sse42
+            |
+            ---0x612079726f6d654d
+               readInput
+               __strcspn_sse42
+
+    18.65%     0.00%  kmeans_seq  [unknown]          [.] 0x612079726f6d654d
+            |
+            ---0x612079726f6d654d
+               readInput
+               __strcspn_sse42
+
+    18.65%     0.00%  kmeans_seq  kmeans_seq         [.] readInput
+            |
+            ---readInput
+               __strcspn_sse42
+
+     0.50%     0.50%  kmeans_seq  [kernel.kallsyms]  [k] __anon_vma_interval_tree_remove
+            |
+            ---0x7a37edeeef3b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [unknown]          [k] 0x00007a37edeeef3b
+            |
+            ---0x7a37edeeef3b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] do_syscall_64
+            |
+            ---do_syscall_64
+               x64_sys_call
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] x64_sys_call
+            |
+            ---x64_sys_call
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] __x64_sys_execve
+            |
+            ---__x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] do_execveat_common.isra.0
+            |
+            ---do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] bprm_execve
+            |
+            ---bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] bprm_execve.part.0
+            |
+            ---bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] exec_binprm
+            |
+            ---exec_binprm
+               search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] search_binary_handler
+            |
+            ---search_binary_handler
+               load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] load_elf_binary
+            |
+            ---load_elf_binary
+               setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] setup_arg_pages
+            |
+            ---setup_arg_pages
+               shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] shift_arg_pages
+            |
+            ---shift_arg_pages
+               vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] vma_expand
+            |
+            ---vma_expand
+               vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] vma_prepare
+            |
+            ---vma_prepare
+               anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.50%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] anon_vma_interval_tree_remove
+            |
+            ---anon_vma_interval_tree_remove
+               __anon_vma_interval_tree_remove
+
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] native_write_msr
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] asm_sysvec_apic_timer_interrupt
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] sysvec_apic_timer_interrupt
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] irqentry_exit
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] irqentry_exit_to_user_mode
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] exit_to_user_mode_prepare
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] exit_to_user_mode_loop
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] schedule
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] __schedule
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] finish_task_switch.isra.0
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] __perf_event_task_sched_in
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] perf_ctx_enable
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] x86_pmu_enable
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] intel_pmu_enable_all
+     0.00%     0.00%  kmeans_seq  [kernel.kallsyms]  [k] perf_event_nmi_handler
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] native_write_msr
+     0.00%     0.00%  perf-exec   [unknown]          [k] 0x00007a37edeeef3b
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] do_syscall_64
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] x64_sys_call
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] __x64_sys_execve
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] do_execveat_common.isra.0
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] bprm_execve
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] bprm_execve.part.0
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] exec_binprm
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] search_binary_handler
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] load_elf_binary
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] begin_new_exec
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] perf_event_exec
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] ctx_resched
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec   [kernel.kallsyms]  [k] intel_pmu_enable_all
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

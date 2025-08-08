@@ -1,0 +1,93 @@
+[
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 2,
+    "max_iterations": 50,
+    "change_threshold": 0.05,
+    "movement_threshold": 0.01
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 5,
+    "max_iterations": 100,
+    "change_threshold": 0.05,
+    "movement_threshold": 0.01
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 10,
+    "max_iterations": 1000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 100,
+    "max_iterations": 1000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 1000,
+    "max_iterations": 1000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 10000,
+    "max_iterations": 1000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 100000,
+    "max_iterations": 1000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 100,
+    "max_iterations": 100000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 1000,
+    "max_iterations": 100000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 10000,
+    "max_iterations": 100000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 100000,
+    "max_iterations": 100000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 100000,
+    "max_iterations": 1000000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  },
+  {
+    "input_file": "../test_files/input100D2.inp",
+    "num_clusters": 100000,
+    "max_iterations": 10000000,
+    "change_threshold": 1,
+    "movement_threshold": 0.1
+  }
+]

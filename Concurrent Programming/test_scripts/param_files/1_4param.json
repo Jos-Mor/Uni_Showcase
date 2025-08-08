@@ -1,0 +1,30 @@
+[
+{
+    "input_file": "../test_files/input10D.inp",
+    "num_clusters": 5,
+    "max_iterations": 100,
+    "change_threshold": 0.05,
+    "movement_threshold": 0.01
+  },
+  {
+    "input_file": "../test_files/input10D.inp",
+    "num_clusters": 100,
+    "max_iterations": 2000,
+    "change_threshold": 0.005,
+    "movement_threshold": 0.0001
+  },
+  {
+    "input_file": "../test_files/input20D.inp",
+    "num_clusters": 100,
+    "max_iterations": 2000,
+    "change_threshold": 0.005,
+    "movement_threshold": 0.0005
+  },
+  {
+    "input_file": "../test_files/input20D.inp",
+    "num_clusters": 250,
+    "max_iterations": 4000,
+    "change_threshold": 0.002,
+    "movement_threshold": 0.0001
+  }
+]
