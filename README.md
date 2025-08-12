@@ -30,8 +30,8 @@ Oracle-based e-commerce platform (GLVO) with comprehensive database design and A
 ### [Water Alert Scraper](./Personal%20Projects/Water%20Alert%20Scraper/)
 Python automation script that monitors municipal water service announcements and sends Discord notifications.
 
-### [Cybersecurity Challenges](./Personal%20Projects/Cybersecurity%20Challenges/)
-Solutions for OverTheWire Bandit levels 0-19, covering Linux command-line and basic security concepts.
+### Cybersecurity Learning
+Completed OverTheWire Bandit levels 0-19, learning Linux command-line skills, file analysis, network tools, and basic security concepts. Solutions available in private repository upon request (respecting OverTheWire community guidelines).
 
 ## 🎓 Academic Context
 
